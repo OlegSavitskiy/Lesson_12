@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(70, 69, 104);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.main {
+  max-width: 900px;
+  width: 900px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px -6px ,0 0 30px -50px;
+  display: flex;
+}
+main.main .box__half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+  padding: 2rem 1rem;
+}
+main.main h2 {
+  margin-bottom: 10px;
+}
+main.main p {
+  max-width: 300px;
+    width: 100%;
+  text-align: center;
+}
+main.main a, main.main button {
+  color: inherit;
+  font-family: inherit;
+}
+main.main a {
+  text-decoration: none;
+  margin: 25px;
+}
+main.main .soc a {
+  display: inline-block;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(70, 69, 104);
+}
+main.main .soc a:hover,
+main.main .soc a:focus {
+  background: rgb(70, 69, 104);
+  color: white;
+}
+main.main .box__half a {
+  position: relative;
+}
+main.main form {
+  display: flex;
+  flex-direction: column;
+}
+main.main form input {
+  width: 300px;
+  margin: 40px;
+  background: white;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+}
+main.main form input::placeholder {
+  opacity: 0.8;
+}
+main.main button {
+  background: none;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.box__half.half_one {
+  width: 600px;
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.box__half.half_one button {
+    background: rgb(63, 177, 177);
+    color: rgb(255, 255, 255);
+}
+.box__half.half_two {
+  background: rgb(63, 177, 177);
+  color: rgb(255, 255, 255);
+  border-radius: inherit;
+}
+.btn:hover {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36); 
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.36);
+}
